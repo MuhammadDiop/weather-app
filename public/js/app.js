@@ -1,5 +1,3 @@
-console.log('public javascript!')
-
 const weatherForm = document.querySelector('form')
 const forecast = document.querySelector('#forecast')
 const loc = document.querySelector('#location')
