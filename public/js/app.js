@@ -1,8 +1,8 @@
-const weatherForm = document.querySelector('form')
+const weatherBtn= document.querySelector('button')
 const forecast = document.querySelector('#forecast')
 const loc = document.querySelector('#location')
 
-weatherForm.addEventListener('submit', (e) => {
+weatherBtn.addEventListener('click', (e) => {
   e.preventDefault()
   loc.style.display = 'none'
   forecast.innerText = 'loading...'
